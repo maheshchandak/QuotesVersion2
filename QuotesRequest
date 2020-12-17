@@ -1,0 +1,25 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header>
+
+<h:SecretToken xmlns="http://schemas.datacontract.org/2004/07/Winterthur.SoapHeaderFactory" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:h="http://schemas.datacontract.org/2004/07/Winterthur.SoapHeaderFactory">
+<LoginGuid>B7B058FA-53CE-4571-90A3-3D9B92DB6627</LoginGuid>
+<SecretToken>JY`GU?R46s-1j2A=yVR2KIl`,$7#H;QW5</SecretToken>
+</h:SecretToken>
+<ActivityId CorrelationId="f0f83aeb-d7d2-4791-9a09-c8abaa0c892b" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">00000000-0000-0000-0000-000000000000</ActivityId>
+</s:Header>
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <RetrieveGOFQuote xmlns="http://tempuri.org/">
+         <thirdPartyQuoteRequest>
+            <AlternativePremiumAmount xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">30</AlternativePremiumAmount>
+            <DateOfBirth xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">1969-12-12T00:00:00</DateOfBirth>
+            <IntervalsAbovePremiumSA xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">10</IntervalsAbovePremiumSA>
+            <PremiumAmount xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">0</PremiumAmount>
+            <PremiumDueDay xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">6</PremiumDueDay>
+            <PromotionCode xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">22661</PromotionCode>
+            <RequestorName xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">Test</RequestorName>
+            <Smoker xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">Casual</Smoker>
+            <SumAssuredAmount xmlns="http://schemas.datacontract.org/2004/07/B_wcfSunLifeDirectGateway.Classes">100</SumAssuredAmount>
+         </thirdPartyQuoteRequest>
+      </RetrieveGOFQuote>
+   </s:Body>
+</s:Envelope>
